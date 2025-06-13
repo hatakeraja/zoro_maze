@@ -1,0 +1,13 @@
+body {
+  background: url("assets/background.jpg") repeat;
+  background-size: cover;
+  font-family: monospace;
+  color: #0f0;
+  text-align: center;
+}
+canvas {
+  border: 3px solid #0f0;
+  background-color: #000;
+  display: block;
+  margin: 20px auto;
+}

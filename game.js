@@ -44,14 +44,14 @@ function checkImagesLoaded() {
 }
 
 // Assign image sources (make sure these files are in the "assets" folder)
-images.zoro.src = "assets/zoro.png";
-images.wall.src = "assets/wall.png";
-images.sword.src = "assets/sword.png";
-images.goal.src = "assets/goal.png";
-images.enemy.src = "assets/enemy.png";
-images.trap.src = "assets/trap.png";
-images.sake.src = "assets/sake.png";
-images.heart.src = "assets/heart.png";
+images.zoro.src = "zoro.png";
+images.wall.src = "wall.png";
+images.sword.src = "sword.png";
+images.goal.src = "goal.png";
+images.enemy.src = "enemy.png";
+images.trap.src = "trap.png";
+images.sake.src = "sake.png";
+images.heart.src = "heart.png";
 
 // Wait for all images to load
 for (let key in images) {
